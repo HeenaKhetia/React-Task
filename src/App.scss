@@ -1,0 +1,51 @@
+$black: #414141;
+$white: white;
+
+.white-txt {
+  color: $white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;  
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.black-bg {
+  background-color: $black;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color:$white;
+}

@@ -1,0 +1,30 @@
+@import '../../App.scss';
+
+.moviecard {
+    width: 100px;
+    height: 150px;
+    background-color: $black ;
+    background-repeat: no-repeat;
+    background-image: url('../../images/flap5.png');
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    line-height: 9;
+    margin: 3px 15px;
+    cursor: pointer;
+}
+
+.container {
+    min-height: 310px;
+    padding-top: 25px;
+}
+
+.cardtitle {
+    margin-left: 15px;
+    font-size: small;
+    color: black;
+}
+
+.cardlink:hover {
+    text-decoration: none;
+}

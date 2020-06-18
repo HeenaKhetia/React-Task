@@ -8,14 +8,20 @@ import './App.scss';
 
 function App() {
   return (
-    <div>
+    <div class="root">
       <Router>
+        <div class="flex-shrink">
         <Header></Header>
-        <Switch>
+        </div>
+        <div class="flex-expand">
+        <Switch> 
           <Route exact path="/" component={Home} />
           <Route path="/:content" component={Content} />
         </Switch>
+        </div>
+        <div class="flex-shrink">
         <Footer></Footer>
+        </div>
       </Router>
     </div>
   );
